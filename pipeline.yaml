@@ -1,0 +1,26 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+    addToPath: true
+
+- script: |
+    python -m pip install requests
+  displayName: 'Instalar dependências'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)'
+    Contents: 'Funcionalidades.txt'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/ChangeAutoPython/'
+  displayName: 'Copiar Funcionalidades.txt'
+
+- script: |
+    python ChangeAutoPython/main.py
+  displayName: 'Executar script Python'
