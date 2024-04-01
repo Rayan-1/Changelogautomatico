@@ -1,0 +1,42 @@
+[[_TOC_]]
+[[_TOC_]]
+
+
+### Version: 
+
+- Responsible
+
+| Lead |  DevOps | Dossier | Date | Pull Request | Branch | Monitoramento | NOC/SOC | Agilist |
+|--|--|--|--|--|--| --|--|--|
+|    |  | [Dossier]() |  | |  | | |  
+
+- Observation
+
+Nº | Work Item | Message | Responsible | Family |
+--|--|--|--|--|
+01|  |  |  |  |
+
+
+- Additional Applications
+
+Nº | Application | Repository | Porta | Demandas | Ativa | Commit na main
+|--|--|--|--|--|--|--|
+|01|  |  |  |  |  |  | 
+
+
+
+
+Nº | Work Item | Pull Request | Responsible | Family | Server (1C2/1C3) | Server (FitSites1A) | Server (FitSites1A2) | Server (FitSites1C) | Server (FitSites1C5) | Server (Sandbox) | Server (PRD-ST-SP1A-01) | Server (PRD-ST-SP1C-01) | Server (PRD-ST-SP1C-02) | Server (PRD-ST-SP1A-04) | Publicação PIX |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|01|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+- Occurrences
+
+Nº | Work Item |  Responsible  | Family  | Comments |
+|--|--|--|--|--|
+01|  |  |   |  |  |
+02|  |  |   |  |  |
+
+
+- Evidence
