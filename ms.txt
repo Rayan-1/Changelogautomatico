@@ -1,0 +1,114 @@
+[[TOC]]
+
+### Implantações
+
+#### 1º (03:00 - 05:00)
+
+- Responsible
+
+| Lead |  DevOps | Date |
+|--|--|--|
+| @<Osmar Graner> | |  |
+
+ - #*Avisos importantes*
+   - Requisitos para fazer o commit na versionada:
+     - PR Aprovado
+     - DM Aprovado
+
+   -  Adição de item na janela de Microsserviços tem um limite de itens 15 demandas ou 15 aplicações
+   -  Adição de item na janela de publicação de MS de 03h as 05h do dia 14/03, somente até as 16:59 do dia 13/03, caso o item seja adicionado depois do horário estimado, item será removido!!<br>
+
+- Work Item
+
+Nº | Work Item | Pull Request| Responsible | Family |
+|--|--|--|--|--|
+01 |--|--|--|--|
+
+
+- Evidence
+
+---
+
+
+#### 2º (9:00 - 11:00)
+
+- Responsible
+
+| Lead |  DevOps | Agilist  | Dossiê | Date |
+|--|--|--|--|--|
+| |    |--| [Dossiê]() | 
+
+ - #*Avisos importantes*
+   - Requisitos para fazer o commit na versionada:
+     - PR Aprovado
+     - DM Aprovado
+
+   -  Adição de item na janela de Microsserviços tem um limite de itens 15 demandas ou 15 aplicações
+   -  Adição de item na janela de publicação de MS de 09h as 11h do dia 14/03, somente até as 16:59 do dia 13/03, caso o item seja adicionado depois do horário estimado, item será removido!!<br>
+
+- Work Item
+
+Nº | Work Item | Pull Request| Responsible | Family |
+|--|--|--|--|--|
+| 01 |   |   |  |  |
+| 02 |   |   |  |  |
+
+
+- Occurrences
+
+Nº | Work Item |  Responsible  | Family  | Comments
+|--|--|--|--|--|
+| 01 |   |   |  |  |  |
+| 02 |   |   |  |  |  |
+
+
+- Evidence
+
+---
+
+#### 3º (14:00 - 16:00)
+
+- Responsible
+
+| Lead |  DevOps | Agilist  | Dossiê | Date |
+|--|--|--|--|--|
+|--|   | [Dossiê]() |--||
+
+
+
+- Observation
+
+Nº | Work Item | Pull Request | Responsible | Family |
+|--|--|--|--|--|
+| 01 |   |   |  |  |
+| 02 |   |   |  |  |
+
+ - #*Avisos importantes*
+   - Requisitos para fazer o commit na versionada:
+     - PR Aprovado
+     - DM Aprovado
+
+   -  Adição de item na janela de Microsserviços tem um limite de itens 15 demandas ou 15 aplicações
+   -  Adição de item na janela de publicação de MS de 09h as 11h do dia 14/03, somente até as 16:59 do dia 13/03, caso o item seja adicionado depois do horário estimado, item será removido!!<br>
+
+- Work Items
+
+Nº | Work Item |  Responsible  | Family  | Comments
+|--|--|--|--|--|
+| 01 |   |   |  |  |
+| 02 |   |   |  |  |
+
+
+
+
+- Occurrences
+
+Nº | Work Item |  Responsible  | Family  | Comments
+|--|--|--|--|--|
+| 01 |   |   |  |  |  |
+| 02 |   |   |  |  |  |
+
+
+
+
+- Evidence
