@@ -1,26 +1,29 @@
-trigger:
-- main
+trigger: none
+
+parameters:
+- name: Branch_tag
+  displayName: 'Branch/tag'
+  type: string
+  default: 'main'
+
+- name: year
+  displayName: 'Year'
+  type: number
+  default: 2024
+
+- name: month
+  displayName: 'Month'
+  type: number
+  default: 6
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: UsePythonVersion@0
+- task: PythonScript@0
   inputs:
-    versionSpec: '3.x'
-    addToPath: true
-
-- script: |
-    python -m pip install requests
-  displayName: 'Instalar dependências'
-
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: '$(Build.SourcesDirectory)'
-    Contents: 'Funcionalidades.txt'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)/ChangeAutoPython/'
-  displayName: 'Copiar Funcionalidades.txt'
-
-- script: |
-    python ChangeAutoPython/main.py
-  displayName: 'Executar script Python'
+    scriptSource: 'filePath'
+    scriptPath: 'ChangeAutoPython/main.py'
+    pythonInterpreter: 'python3'
+    arguments: '-y ${{ parameters.year }} -m ${{ parameters.month }}'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/ChangeAutoPython'
